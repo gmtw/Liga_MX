@@ -1,0 +1,3576 @@
+.menusecciones ul,
+.navcentre ul {
+    list-style: none;
+    white-space: nowrap
+}
+.bgtpts {background-color: rgba(177, 204, 18, 0.19) !important;} 
+.bg-dif {background: rgba(0, 84, 156, 0.2) !important;}
+.bg-cociente {background: rgba(246, 90, 91, 0.19);}   
+.modal-header{    
+    width: 70%;
+}
+.modalColor{
+    height:63px;
+    background:#072146;
+}
+.modal-footer {
+    background: 0 0!important;
+    padding: 15px 30px;
+    text-align: right;
+    position: absolute;
+    bottom: 15px;
+    width: 95%;
+    left: 15px;
+    color: #fff;
+    font-weight: 700
+}
+
+.hide {
+    display: none
+}
+
+.pointer {
+    cursor: pointer!important
+}
+
+.text-center {
+    text-align: center!important
+}
+
+.center_tabla {
+    margin-left: auto!important;
+    margin-right: auto!important
+}
+
+.youmax-video-tnail-box {
+    height: 215px!important
+}
+
+.youmax-video-tnail {
+    height: 135px!important
+}
+
+.videosCanal .videoSingle {
+    min-height: 215px
+}
+
+.youmax-video-list-title {
+    font-size: 13.5px!important
+}
+
+.btn-gris.activo,
+.button-general,
+.videosCanal .canal-tabs ul li span.active {
+    color: #337ab7
+}
+
+.youmax-tab {
+    text-shadow: 0 0 0 #fff!important
+}
+
+.galeria .container-fluid .row {
+    margin: 0!important;
+    padding: 0 15px!important
+}
+
+.zoom {
+    cursor: -webkit-zoom-in!important;
+    cursor: -moz-zoom-in!important
+}
+
+.videosPest .menu-videos li span {
+    color: #565759!important
+}
+
+.videosPest .menu-videos li span.active,
+.videosPest .menu-videos li span:hover {
+    color: #FFF!important
+}
+
+.box-search.GaleriaBusc form {
+    padding: 1px 0 0!important
+}
+
+.imagenLista a {
+    background: #FFF;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    min-height: 130px;
+    padding: 20px
+}
+
+.videos ul li a {
+    padding: 15px 35px
+}
+
+.box-matches .viewport-matches .matches>li.active {
+    display: block!important
+}
+
+.box-matches {
+    padding: 0!important
+}
+
+.box-matches .viewport-matches {
+    padding-bottom: 0!important
+}
+
+.box-button {
+    padding-top: 0!important
+}
+
+.icoCerrar {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/cerrar.png) center top no-repeat!important
+}
+
+.caras .cara-cara .equipos>p .ico {
+    margin: 0 15px -12px!important
+}
+
+.clock-block {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 120px;
+    height: 98px;
+    margin: 0 8px;
+    padding-top: 16px;
+    line-height: 1;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-shadow: 0 1px rgba(255, 255, 255, .3);
+    background: #e5e7eb;
+    border: 1px solid #9fa2ad;
+    border-radius: 3px 3px 2px 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: -webkit-linear-gradient(top, #f1f2f5, #e5e7eb 20%, #c2c5d1 50%, #e5e7eb 80%, #e4e5eb);
+    background-image: -moz-linear-gradient(top, #f1f2f5, #e5e7eb 20%, #c2c5d1 50%, #e5e7eb 80%, #e4e5eb);
+    background-image: -o-linear-gradient(top, #f1f2f5, #e5e7eb 20%, #c2c5d1 50%, #e5e7eb 80%, #e4e5eb);
+    background-image: linear-gradient(to bottom, #f1f2f5, #e5e7eb 20%, #c2c5d1 50%, #e5e7eb 80%, #e4e5eb);
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, .5), 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px rgba(255, 255, 255, .5), 0 1px 2px rgba(0, 0, 0, .1)
+}
+
+.clock-block:after,
+.clock-block:before {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: -1px;
+    right: -1px;
+    z-index: -1;
+    height: 4px;
+    background: #cacfd9;
+    border: 1px solid #9fa2ad;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .4), 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .4), 0 1px 2px rgba(0, 0, 0, .1)
+}
+
+.clock-val {
+    display: block;
+    position: relative;
+    z-index: 1;
+    font-size: 64px;
+    font-weight: 700;
+    color: #4f5258
+}
+
+.clock-val:after,
+.clock-val:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0
+}
+
+.clock-val:after {
+    top: 50%;
+    bottom: -16px;
+    border-top: 1px solid rgba(60, 62, 68, .4);
+    border-radius: 0 0 2px 2px;
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(255, 255, 255, 0) 50%);
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .25), rgba(255, 255, 255, 0) 50%);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, .25), rgba(255, 255, 255, 0) 50%);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .25), rgba(255, 255, 255, 0) 50%);
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, .3), inset 0 0 0 1px rgba(255, 255, 255, .2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, .3), inset 0 0 0 1px rgba(255, 255, 255, .2)
+}
+
+.clock-unit {
+    display: block;
+    margin-top: -2px;
+    font-size: 13px;
+    font-weight: 200;
+    color: #6b707a;
+    text-transform: capitalize
+}
+
+.bsqdavnzda,
+.menu-main nav>ul>li a,
+.switch-label {
+    text-transform: uppercase
+}
+
+.caras .cara-cara .cara .fichaTecnica.izquierda .jugador:after {
+    background: url(assets/bg/ficha-izq.png);
+    content: "";
+    height: 218px;
+    position: absolute;
+    right: -56px;
+    top: 0;
+    width: 45px
+}
+
+.menu-main nav>ul>li.flechita>a:after {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) -68px -159px;
+    content: "";
+    display: block;
+    height: 5px;
+    right: 6px;
+    position: absolute;
+    top: 26px;
+    width: 10px
+}
+
+.notInterna img,
+table.min .eventos td img {
+    width: 100%!important
+}
+
+.carruselE>div {
+    margin: 0!important
+}
+
+.btn-verde,
+.leaderboard .row nav ul li a.active,
+.leaderboard .row nav ul li a:hover,
+.tabs-nav.btns-theme span.active {
+    color: #337ab7
+}
+
+.btn-verde-compacto {
+    margin-top: 8px!important;
+    padding: 3px 10px!important;
+    color: #337ab7
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #b1cc12;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    background: #f5f5f5
+}
+
+.tabla_lmx tr .head {
+    background: #b1cc12
+}
+
+.linkazul {
+    color: #1b7db3!important
+}
+
+.golesNacClub,
+.golesxTiemClub {
+    text-align: center!important
+}
+
+.inform_pdf:hover .ico.resumen {
+    background-position: -130px -318px
+}
+
+.btnBack {
+    color: #072146
+}
+
+.minCabecera {
+    background: #ececec
+}
+
+.minCabecera .header>div {
+    border-right: 1px solid #c9c9c9
+}
+
+.minCabecera .header>div:last-child {
+    border-right: 0
+}
+
+.minCabecera .header .datos {
+    font-family: Ubuntu, sans-serif;
+    font-size: 13px;
+    font-weight: 500
+}
+
+.minCabecera .header .ico {
+    margin: -5px 10px;
+    padding-top: 15px
+}
+
+.minCabecera .header .boton {
+    padding: 0
+}
+
+.minCabecera .header .boton a {
+    display: block;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0
+}
+
+.minCabecera .header .boton a:hover .ico-arbitro {
+    background-position: -91px -46px
+}
+
+.minCabecera .header .boton a:hover .ico-sigMini {
+    background-position: -47px -263px
+}
+
+.minCabecera .header .boton a:hover .ico-estadio {
+    background-position: 0 -51px
+}
+
+.minCabecera .header .boton a:hover .ico-minuto {
+    background-position: -46px -46px
+}
+
+.minCabecera .container-fluid {
+    margin: 0 auto;
+    padding: 0
+}
+
+.minCabecera .tiempos {
+    padding: 20px 0
+}
+
+.minCabecera .tiempos .contenedorTabla {
+    display: block;
+    padding-left: 15px;
+    overflow: hidden;
+    width: 98%
+}
+
+.minCabecera .tiempos .tabsT {
+    margin: 0 auto 20px;
+    width: 80%;
+    z-index: 5
+}
+
+.minCabecera .tiempos>.row {
+    position: relative
+}
+
+.minCabecera .tiempos .labelT {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #072146;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 700
+}
+
+.menusecciones {
+    margin: 0 auto;
+    display: table;
+    padding: 2px;
+    white-space: nowrap;
+    background: #ececec;
+    width: 100%
+}
+
+.menusecciones ul {
+    margin: 0;
+    padding: 0;
+    display: table-row
+}
+
+.menusecciones ul li {
+    display: table-cell;
+    font-weight: 700;
+    border-right: 1px solid #c9c9c9
+}
+
+.menusecciones ul li a {
+    color: #072146
+}
+
+.menusecciones ul li:hover {
+    background: #072146
+}
+
+.menusecciones ul li:hover a {
+    background: #072146;
+    color: #fff
+}
+
+.menusecciones ul li:hover .ico-sigMini {
+    background-position: -47px -263px
+}
+
+.menusecciones ul li a:hover a .jugada {
+    background-position: -87px -320px!important
+}
+
+.menusecciones ul a {
+    display: block;
+    padding: 4px 10px;
+    text-decoration: none;
+    background: #ececec
+}
+
+.menusecciones ul a:hover {
+    color: #fff!important
+}
+
+.menusecciones ul a:hover .ico-sigMini {
+    background-position: -47px -263px
+}
+
+.navcentre {
+    margin: 0 auto;
+    padding: 2px;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index: 1001;
+    background: #ececec;
+    width: 100%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .3)
+}
+
+.navcentre ul {
+    margin: 0;
+    padding: 0;
+    display: table-row
+}
+
+.navcentre ul li {
+    display: table-cell;
+    font-weight: 700;
+    border-right: 1px solid #c9c9c9
+}
+
+.navcentre ul a {
+    display: block;
+    padding: 4px 10px;
+    text-decoration: none;
+    background: #ececec;
+    color: #072146
+}
+
+.navcentre ul a:hover {
+    font-weight: bolder
+}
+
+.navcentre ul li:hover {
+    background: #072146
+}
+
+.navcentre ul li:hover a {
+    background: #072146;
+    color: #fff
+}
+
+.navcentre ul li:hover .ico-sigMini {
+    background-position: -47px -263px
+}
+
+#logodivision {
+    background: #00529c!important;
+    text-align: center
+}
+
+.menu-main .search-box form {
+    top: 50px!important
+}
+
+.imgs_mov {
+    width: 100%!important;
+    padding: 5px;
+    height: 33px
+}
+
+.menu-main {
+    clear: both;
+    height: 51px;
+    position: relative;
+    z-index: 2
+}
+
+.menu-main .menuP {
+    padding: 0
+}
+
+.menu-main .col-xs-1 {
+    width: 48px
+}
+
+.menu-main .button-home {
+    cursor: pointer;
+    float: left;
+    height: 34px;
+    margin-top: 9px
+}
+
+.menu-main .button-home a {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) -134px -8px no-repeat;
+    display: block;
+    height: 16px;
+    margin: 8px auto 0;
+    text-indent: -9999px;
+    width: 16px
+}
+
+.menu-main nav,
+.menu-main nav>ul {
+    width: 100%
+}
+
+.menu-main .button-home:hover {
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px
+}
+
+.menu-main nav .label {
+    display: none
+}
+
+.menu-main nav>ul>li {
+    display: inline-block;
+    margin: -5px 0 0;
+    min-height: 54px;
+    padding-top: 7px;
+    position: relative;
+    text-align: center;
+    vertical-align: top
+}
+
+.menu-main nav>ul>li:first-child {
+    height: 57px
+}
+
+.menu-main nav>ul>li:last-child {
+    padding-top: 7px!important
+}
+
+.menu-main nav>ul>li.torneos {
+    padding-top: 0;
+    height: 56px
+}
+
+.menu-main nav>ul>li.torneos .flecha-down {
+    margin: 0 0 8px 5px
+}
+
+.menu-main nav>ul>li.torneos .sub-menu {
+    top: 62px
+}
+
+.menu-main nav>ul>li.torneos>a {
+    padding: 8px 15px;
+    position: relative
+}
+
+.menu-main nav>ul>li.torneos>a:after {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) -68px -159px;
+    content: "";
+    display: block;
+    height: 5px;
+    right: 10px;
+    position: absolute;
+    top: 16px;
+    width: 10px
+}
+
+.menu-main nav>ul>li a {
+    color: #FFF;
+    display: inline-block;
+    font-family: Ubuntu, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 6px;
+    padding: 8px 10px
+}
+
+.menu-main nav>ul>li a .flecha-down {
+    margin: 0 0 2px 3px
+}
+
+.menu-main nav>ul>li>a:hover {
+    border-radius: 30px;
+    text-decoration: none;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px
+}
+
+.menu-main nav>ul>li .sub-menu {
+    border-radius: 4px;
+    display: none;
+    left: 50%;
+    margin-left: -67px;
+    padding-bottom: 6px;
+    position: absolute;
+    width: 134px
+}
+
+.menu-main nav>ul>li .sub-menu a {
+    display: inline-block;
+    padding: 12px 0;
+    text-align: center;
+    width: 100%
+}
+
+.menu-main nav>ul>li .sub-menu a:hover {
+    text-decoration: none
+}
+
+.menu-main nav>ul>li .sub-menu .arrow {
+    margin-left: -6px;
+    top: -6px
+}
+
+.menu-main nav>ul>li:hover .sub-menu {
+    display: block
+}
+
+.menu-main nav>ul>li:hover>a {
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px
+}
+
+.menu-main .search-box {
+    height: 63px;
+    float: left;
+    position: relative
+}
+
+.menu-main .search-box .btn-open {
+    display: block;
+    height: 36px;
+    margin-top: 6px;
+    padding-top: 10px
+}
+
+.menu-main .search-box .btn-open span {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) -95px -88px no-repeat;
+    display: block;
+    height: 16px;
+    margin: 0 auto;
+    text-indent: -9999px;
+    width: 18px
+}
+
+.menu-main .search-box .btn-open:hover {
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px
+}
+
+.menu-main .search-box form {
+    border-radius: 4px;
+    display: none;
+    height: 60px;
+    padding: 6px;
+    position: absolute;
+    right: 30px;
+    width: 370px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px
+}
+
+.menu-main .search-box form input[type=text] {
+    border: 0;
+    color: #FFF;
+    font-family: Ubuntu, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 0 10px;
+    width: 260px
+}
+
+.brramarcadors .row .navs li a,
+.nomsync {
+    font-family: Ubuntu, sans-serif
+}
+
+.menu-main .search-box form input[type=submit] {
+    border: 0;
+    border-radius: 10px;
+    color: #FFF;
+    height: 26px;
+    width: 80px
+}
+
+.team-logos-internacional ul li a,
+.team-logos-internacional ul li a img {
+    display: block;
+    height: 40px;
+    width: 40px
+}
+
+.menu-main nav>ul>li .sub-menu {
+    top: 53px!important;
+    padding-top: 2px
+}
+
+.menu-main nav>ul>li .sub-menu_int {
+    top: 62px!important;
+    padding-top: 2px
+}
+
+.minCabecera .header>div {
+    padding: 16px 10px 0
+}
+
+.menu-main nav>ul>li .sub-menu .parent .sub-menu-2 {
+    top: 25px!important
+}
+
+.menu-main nav>ul>li .sub-menu .parent .sub-menu-2:before {
+    content: "";
+    border: 8px solid transparent;
+    border-right-color: #01325b;
+    left: -15px;
+    top: 60px!important;
+    position: absolute;
+    border-radius: 4px
+}
+
+.slide-club .button-next {
+    z-index: 1
+}
+
+.div_loading {
+    min-height: 186px!important
+}
+
+.team-logos-internacional {
+    background: #ececec;
+    box-shadow: 0 -20px 30px -30px rgba(0, 0, 0, .75) inset;
+    padding: 12px 0;
+    -moz-box-shadow: 0 -20px 30px -30px rgba(0, 0, 0, .75) inset;
+    -webkit-box-shadow: 0 -20px 30px -30px rgba(0, 0, 0, .75) inset
+}
+
+.team-logos-internacional ul {
+    margin: 0 auto;
+    max-width: 1180px;
+    overflow: hidden
+}
+
+.team-logos-internacional ul li {
+    float: left;
+    margin-left: 27px
+}
+
+.team-logos-internacional ul li a {
+    text-indent: -99999px
+}
+
+.team-logos-internacional ul li:first-child {
+    margin-left: 0
+}
+
+.plecaBot {
+    margin-bottom: 15px!important
+}
+
+.download {
+    background: url(assets/bg/download_file.png) -31px -1px!important
+}
+
+.printer {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/print.png) -31px -1px!important
+}
+
+li.mxmpre:hover span.previoS {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) -12px -320px
+}
+
+li.mxmali:hover span.alineacion {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) -45px -319px
+}
+
+li.mxmjaj:hover span.jugada {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) -87px -320px
+}
+
+li.mxmres:hover span.resumen {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) -130px -318px
+}
+
+li.mxmvid:hover span.videosS {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) -159px -318px
+}
+
+.men_marcador {
+    width: 210px!important
+}
+
+.cuentatras {
+    -o-animation-timing-function: pulsedot 1s infinite;
+    animation-timing-function: pulsedot 1s infinite;
+    -moz-animation: pulse2 1s infinite;
+    -webkit-animation: pulse2 1s infinite
+}
+
+.viewportMacthes_ex .matches>li ul.scoreboard_ex.granFinal>li {
+    width: 1180px!important
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard.granFinal>li>div .broadcasting>div {
+    padding: 0!important
+}
+
+.menu-league {
+    background: #fff!important
+}
+
+.tblmnrs thead tr th {
+    border-left: 1px solid rgba(255, 255, 255, .2)!important;
+    border-bottom: 1px solid rgba(255, 255, 255, .2)
+}
+
+.tblmnrs tbody tr td {
+    border: 1px solid rgba(237, 237, 238, 1)
+}
+
+.brramarcadors .row .navs {
+    text-align: center
+}
+
+.brramarcadors .row .navs li {
+    display: inline-block;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    padding: 1px
+}
+
+.brramarcadors .row .navs li a {
+    border-radius: 30px;
+    color: #fff;
+    display: block;
+    background: #bfbfc1;
+    font-size: 14px;
+    font-weight: 700;
+    height: 22px;
+    padding-top: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 158px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px
+}
+
+.brramarcadors .row .navs li a.active,
+.brramarcadors .row .navs li a:hover {
+    background: #b1cc12
+}
+
+.brramarcadors .row .navs li a.active {
+    cursor: default
+}
+
+.brramarcadors .row .navs li:first-child {
+    margin-left: 0
+}
+
+.box-matches .transmit {
+    background: -44px -203px url('images/icons.png') no-repeat;
+    cursor: pointer;
+    height: 14px;
+    margin-left: 4px;
+    width: 7px;
+}
+.iconDir{
+    max-width: 112%;
+    padding-top: 10px;
+}
+
+.iconDircomer{
+    max-width: 162%;
+    padding-top: 10px;
+    margin-left: -16px;
+}
+
+.iconDirseg{
+    max-width: 98%;
+    padding-top: 10px;
+}
+
+.iconDirgen{
+    max-width: 150%;
+    padding-top: 10px;
+    margin-left: -11px;
+}
+
+.iconDirgerente{
+    max-width: 152%;
+    padding-top: 10px;
+}
+
+.iconDircontacto{
+    max-width: 4%;
+    padding-top: 10px;
+}
+
+.cargoEspacio{
+    margin-top: -10px;
+}
+.televisoraW{
+    width: 68px;
+    font-size: 10px;
+}
+
+@media screen and (min-width:1200px) and (max-width:1920px) {
+    .iconDir {
+        max-width: 75% !important;
+        
+    }
+    .iconDirseg {
+        max-width: 62% !important;
+        
+    }
+    .iconDirgen{
+        max-width: 100% !important;
+    }
+    .iconDirgerente{
+        max-width: 95% !important;
+    }
+    .iconDircomer{
+        max-width: 108%;
+    }
+}
+
+.televisora{
+    display: none;
+  }
+
+.box-matches .transmitSig {
+    background: -66px -203px url('images/icons.png') no-repeat;
+    cursor: pointer;
+    height: 14px;
+    margin-right: 4px;
+    width: 8px;
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard>li .sub-menu ul li a .streaming {
+    background-position: -158px -283px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard>li .sub-menu ul li a:hover .streaming {
+    background-position: -158px -314px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard>li .sub-menu ul li a .ico_streaming {
+    background-position: -158px -289px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard>li .sub-menu ul li a:hover .ico_streaming {
+    background-position: -158px -320px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard>li div.field_semis .ico_streaming {
+    background-position: -158px -289px;
+    height: 22px;
+    width: 28px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard>li div.field_semis:hover .ico_streaming {
+    background-position: -158px -320px;
+    height: 22px;
+    width: 28px
+}
+
+.marca_pend .box-matches .next,
+.marca_pend .box-matches .previous {
+    display: none!important
+}
+
+#txtBusqMaster,
+.btnBusqMaster,
+.no-videos-ico {
+    display: inline-block
+}
+
+.gol_penl {
+    font-size: 15px
+}
+
+.gol_penl_port {
+    font-size: 11px;
+    height: 20px!important
+}
+
+.nopadding {
+    padding: 0!important
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard>li>div .score .local,
+.box-matches .viewport-matches .matches>li ul.scoreboard>li>div .score .visit {
+    text-align: center!important
+}
+
+#txtBusqMaster {
+    border: 1px solid rgba(255, 255, 255, .5)!important;
+    width: 250px
+}
+
+.jug_part_intern {
+    width: 60px!important;
+    height: auto!important
+}
+
+.final_he {
+    height: 80px!important
+}
+
+.golVuelta_der {
+    margin-right: 20px;
+    margin-left: 0!important
+}
+
+.no-videos-ico {
+    background: url(assets/bg/no-video-icon.png);
+    height: 80px;
+    width: 100px
+}
+
+.fair-play dl {
+    border-bottom: none!important
+}
+
+.selected_club_sync img {
+    -webkit-filter: drop-shadow(5px 0 6px #5cb85c) drop-shadow(-6px -1px 5px #5cb85c);
+    -moz-filter: drop-shadow(5px 0 6px #5cb85c) drop-shadow(-6px -1px 5px #5cb85c);
+    -ms-filter: drop-shadow(5px 0 6px #5cb85c) drop-shadow(-6px -1px 5px #5cb85c);
+    -o-filter: drop-shadow(5px 0 6px #5cb85c) drop-shadow(-6px -1px 5px #5cb85c);
+    filter: drop-shadow(5px 0 6px #5cb85c) drop-shadow(-6px -1px 5px #5cb85c)
+}
+
+.GenSync {
+    width: 250px;
+    height: 50px;
+    font-size: 20px
+}
+
+.nomsync {
+    color: #565759!important;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    display: inline!important
+}
+
+.selected_div {
+    box-shadow: 0 0 18px #5cb85c
+}
+
+.selected_jrnd {
+    box-shadow: 0 0 18px #5cb85c!important
+}
+
+.statistics nav ul li a:hover .jugada {
+    background-position: -87px -320px
+}
+
+.statistics nav ul li a:hover .calnd {
+    background-position: -13px -257px!important
+}
+
+.ico.resumen {
+    background-position: -130px -287px;
+    height: 25px;
+    width: 19px
+}
+
+.brra_bsqda {
+    height: 70px;
+    font-size: 40px
+}
+
+.btn_brra_bsqda {
+    width: 70px;
+    height: 70px
+}
+
+.sinc_active a {
+    color: #fff!important
+}
+
+.bsqdavnzda {
+    border-radius: 30px;
+    color: #fff;
+    display: block;
+    background: #bfbfc1;
+    font-size: 11px;
+    font-weight: 700;
+    height: 20px;
+    margin: 3px;
+    padding-top: 2px;
+    text-align: center;
+    width: 140px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px
+}
+
+.icos_face,
+.icos_tweet {
+    display: inline-block;
+    width: 30px;
+    height: 25px
+}
+
+.icos_tweet {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) -214px -90px no-repeat
+}
+
+.icos_face {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) -283px -91px no-repeat
+}
+.abrazados{
+  background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/abrazados.png);
+}
+@keyframes stretch {
+  0% {
+    
+    background-color: black;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    
+    background-color: black;
+  }
+}
+.configs {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/configs.png) !important;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+@-ms-keyframes spin {
+    from {
+        -ms-transform: rotate(0)
+    }
+    to {
+        -ms-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(0)
+    }
+    to {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0)
+    }
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.configs:hover:before {
+    -webkit-animation: spinAround 2s linear infinite;
+    -moz-animation: spinAround 2s linear infinite;
+    animation: spinAround 2s linear infinite
+}
+
+.hiddens {
+    float: left;
+    height: 290px;
+    display: none;
+    width: 330px;
+    position: fixed;
+    right: 40px;
+    top: 10%;
+    background: 0 0;
+    color: #000;
+    z-index: 999
+}
+
+.alerta-header .icos {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 48px;
+    border-radius: 4px 0 0;
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) -152px -34px no-repeat;
+    margin: 0 auto 16px
+}
+
+input[type=range]#audioSlider {
+    -webkit-appearance: none;
+    background: url(http://iviewsource.com/exercises/audioslider/images/volume-empty.png) no-repeat;
+    background-size: 95%;
+    width: 250px;
+    height: 20px
+}
+
+input[type=range]#audioSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: url(http://www.ligamx.net/images/eventos/balonMin.png) left top no-repeat;
+    background-size: 70%;
+    width: 40px;
+    height: 40px
+}
+
+input[type=range]#audioSlider:focus {
+    outline: 0!important
+}
+
+.switch {
+    position: relative;
+    display: block;
+    vertical-align: top;
+    width: 66px;
+    height: 30px;
+    padding: 3px;
+    margin: 0 10px 10px 0;
+    background: linear-gradient(to bottom, #eee, #fff 25px);
+    background-image: -webkit-linear-gradient(top, #eee, #fff 25px);
+    border-radius: 18px;
+    box-shadow: inset 0 -1px #fff, inset 0 1px 1px rgba(0, 0, 0, .05);
+    cursor: pointer
+}
+
+.switch-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0
+}
+
+.switch-label {
+    position: relative;
+    display: block;
+    height: inherit;
+    font-size: 10px;
+    background: #eceeef;
+    border-radius: inherit;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .12), inset 0 0 2px rgba(0, 0, 0, .15)
+}
+
+.switch-label:after,
+.switch-label:before {
+    position: absolute;
+    top: 50%;
+    margin-top: -.5em;
+    line-height: 1;
+    -webkit-transition: inherit;
+    -moz-transition: inherit;
+    -o-transition: inherit;
+    transition: inherit
+}
+
+.switch-label:before {
+    content: attr(data-off);
+    right: 11px;
+    color: #072146;
+    text-shadow: 0 1px rgba(255, 255, 255, .5)
+}
+
+.switch-label:after {
+    content: attr(data-on);
+    left: 11px;
+    color: #aaa;
+    text-shadow: 0 1px rgba(0, 0, 0, .2);
+    opacity: 0
+}
+
+.datepicker td span.active,
+.datepicker td.active,
+.datepicker td.active:hover {
+    filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .25)
+}
+
+.switch-input:checked~.switch-label {
+    background: #e1b42b;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .15), inset 0 0 3px rgba(0, 0, 0, .2)
+}
+
+.switch-input:checked~.switch-label:before {
+    opacity: 0
+}
+
+.switch-input:checked~.switch-label:after {
+    opacity: 1
+}
+
+.switch-handle {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 28px;
+    height: 28px;
+    background: linear-gradient(to bottom, #fff 40%, #f0f0f0);
+    background-image: -webkit-linear-gradient(top, #fff 40%, #f0f0f0);
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .2)
+}
+
+.switch-handle:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -6px 0 0 -6px;
+    width: 12px;
+    background: #072146!important;
+    height: 12px;
+    background-image: -webkit-linear-gradient(top, #eee, #fff);
+    border-radius: 6px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, .02)
+}
+
+.switch-input:checked~.switch-handle {
+    left: 74px;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, .2)
+}
+
+.switch-handle,
+.switch-label {
+    transition: All .3s ease;
+    -webkit-transition: All .3s ease;
+    -moz-transition: All .3s ease;
+    -o-transition: All .3s ease
+}
+
+.switch-flat {
+    padding: 0;
+    background: #FFF
+}
+
+.switch-flat .switch-label {
+    background: #FFF;
+    border: 2px solid #072146;
+    box-shadow: none
+}
+
+.switch-flat .switch-label:after {
+    color: #072146
+}
+
+.switch-flat .switch-handle {
+    top: 4px;
+    left: 6px;
+    background: #072146;
+    width: 22px;
+    height: 22px;
+    box-shadow: none
+}
+
+.switch-flat .switch-handle:before {
+    background: #dadada
+}
+
+.switch-flat .switch-input:checked~.switch-label {
+    background: #FFF;
+    border-color: #bfbfc1
+}
+
+.switch-flat .switch-input:checked~.switch-handle {
+    left: 33px;
+    background: #bfbfc1;
+    top: 4px;
+    box-shadow: none
+}
+
+.menu-league ul .activeLang,
+.menu-league ul .de:hover,
+.menu-league ul .en:hover,
+.menu-league ul .es:hover {
+    background: #b1ca3e
+}
+
+.cale_s15 {
+    -moz-animation: load 1s infinite;
+    -webkit-animation: load 2s infinite
+}
+
+@-moz- keyframes load {
+    0%,
+    100% {
+        box-shadow: 0 0 3px #072146
+    }
+    50% {
+        box-shadow: 0 0 10px #072146
+    }
+}
+
+@-webkit- keyframes load {
+    0%,
+    100% {
+        box-shadow: 0 0 3px #072146
+    }
+    50% {
+        box-shadow: 0 0 12px #072146
+    }
+}
+
+.ppdea {
+    -moz-animation: ppdear 1s infinite;
+    -webkit-animation: ppdear 2s infinite
+}
+
+@-moz-keyframes ppdear {
+    0%,
+    100% {
+        box-shadow: 0 0 3px red
+    }
+    50% {
+        box-shadow: 0 0 10px red
+    }
+}
+
+@-webkit-keyframes ppdea {
+    0%,
+    100% {
+        box-shadow: 0 0 3px red
+    }
+    50% {
+        box-shadow: 0 0 12px red
+    }
+}
+
+.menu-league ul .es {
+    border-radius: 30px 0 0 30px;
+    -moz-border-radius: 30px 0 0 30px;
+    -webkit-border-radius: 30px 0 0 30px
+}
+
+.menu-league ul .es a {
+    color: #565759
+}
+
+.menu-league ul .es:hover a {
+    color: #fff
+}
+
+.menu-league ul .en a {
+    color: #565759
+}
+
+.menu-league ul .en:hover a {
+    color: #fff
+}
+
+.menu-league ul .en {
+    border-radius: 0 30px 30px 0;
+    -moz-border-radius: 0 30px 30px 0;
+    -webkit-border-radius: 0 30px 30px 0
+}
+
+.datepicker,
+.datepicker td,
+.datepicker th {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px
+}
+
+.menu-league ul .de a {
+    color: #565759
+}
+
+.menu-league ul .activeLang a,
+.menu-league ul .de:hover a {
+    color: #fff
+}
+
+.jugadaJugada .jugadasTool .paso.e27 {
+    background: url(../images/eventos/27.png) center center no-repeat #fff!important
+}
+
+.jugadaJugada .jugadasTool .paso.e26 {
+    background: url(../images/eventos/26.png) center center no-repeat #fff!important
+}
+
+.jugadaJugada .jugadasTool .paso.e90 {
+    background: url(../images/eventos/90.png) center center no-repeat #fff!important
+}
+
+.jugadaJugada .jugadasTool .paso.e00 {
+    background: url(../images/eventos/00.png) center center no-repeat #fff!important
+}
+
+.img_s15 {
+    -moz-animation: banner 1s infinite;
+    -webkit-animation: banner 2s infinite
+}
+
+@-moz-keyframes banner {
+    0%,
+    100% {
+        box-shadow: 0 0 5px #b1cc12
+    }
+    50% {
+        box-shadow: 0 0 20px #b1cc12
+    }
+}
+
+@-webkit-keyframes banner {
+    0%,
+    100% {
+        box-shadow: 0 0 5px #b1cc12
+    }
+    50% {
+        box-shadow: 0 0 20px #b1cc12
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .news {
+        height: 330px!important
+    }
+    .menu-main nav>ul>li a {
+        font-size: 11px!important;
+        margin-top: 6px!important;
+        padding: 9px 4px!important
+    }
+    .menu-main nav>ul>li.flechita>a:after {
+        right: 0;
+        top: 26px;
+        width: 10px
+    }
+    .videoLista a p span.titulo {
+        font-size: 12px
+    }
+    .desc_videos_m {
+        padding-left: 23px!important
+    }
+    .tofensivas {
+        padding-left: 7%!important;
+        margin: 0 5%
+    }
+    .tdefensivas {
+        padding-left: 4%!important
+    }
+    .tgoleo {
+        margin: 3% 25%
+    }
+    .tcocientehist,
+    .tgralhist {
+        margin: 0
+    }
+    .ytube {
+        height: 560px!important
+    }
+    .viewportMacthes_ex .matches>li ul.scoreboard_ex.granFinal>li {
+        width: 936px!important
+    }
+    .box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div {
+        width: 20%!important;
+        padding: 0!important
+    }
+    .box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu {
+        width: 56%!important
+    }
+    .box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul {
+        width: 98%!important
+    }
+    .box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.tv_ex {
+        width: 21%!important
+    }
+}
+
+@media only screen and (max-width:1210px) {
+    .team-logos-internacional ul {
+        margin: 0 auto;
+        width: 960px!important
+    }
+    .team-logos-internacional ul li {
+        margin-left: 12px!important
+    }
+    #img_field_local,
+    #img_field_visita {
+        left: 29%!important
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .team-logos-internacional ul {
+        margin: 0 auto!important;
+        width: 100%!important
+    }
+    .team-logos-internacional ul li {
+        margin: 0 4px!important
+    }
+    .team-logos-internacional ul li a,
+    .team-logos-internacional ul li a img {
+        height: 32px!important;
+        width: 32px!important
+    }
+    .team-logos-internacional ul li a img {
+        heigth: 32px!important;
+        width: 100%!important
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .menu-main nav .label {
+        display: inherit!important
+    }
+    #img_field_local,
+    #img_field_visita {
+        left: 24.5%!important
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .team-logos-internacional ul {
+        margin: 0 auto!important;
+        width: 90%!important
+    }
+    .team-logos-internacional ul li {
+        margin: 0 3px!important
+    }
+    .team-logos-internacional ul li a,
+    .team-logos-internacional ul li a img {
+        height: 26px!important;
+        width: 26px!important
+    }
+}
+
+@media only screen and (max-width:638px) {
+    .team-logos-internacional {
+        overflow: hidden!important
+    }
+    .team-logos-internacional ul {
+        width: 1182px!important
+    }
+    .team-logos-internacional ul li {
+        margin: 0 16px!important
+    }
+    .team-logos-internacional ul li a,
+    .team-logos-internacional ul li a img {
+        height: 34px!important;
+        width: 34px!important
+    }
+}
+
+@media print {
+    .breadcrumbs,
+    .logosFooter,
+    .redesBtns,
+    .temas_interes,
+    footer,
+    header {
+        display: none!important
+    }
+    .cuerpo_noticia {
+        width: 100%!important
+    }
+    p.MsoNormal>img {
+        text-align: center!important;
+        margin: 30px auto
+    }
+}
+
+.datepicker:after,
+.datepicker:before {
+    content: '';
+    display: inline-block;
+    position: absolute
+}
+
+.datepicker {
+    top: 0;
+    left: 0;
+    padding: 4px;
+    margin-top: 1px;
+    border-radius: 4px
+}
+
+.datepicker:before {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-bottom-color: rgba(0, 0, 0, .2);
+    top: -7px;
+    left: 6px
+}
+
+.datepicker:after {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+    top: -6px;
+    left: 7px
+}
+
+.datepicker>div {
+    display: none
+}
+
+.datepicker table {
+    width: 100%;
+    margin: 0
+}
+
+.datepicker td,
+.datepicker th {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px
+}
+
+.datepicker td.day:hover {
+    background: #eee;
+    cursor: pointer
+}
+
+.datepicker td.day.disabled {
+    color: #eee
+}
+
+.datepicker td.new,
+.datepicker td.old {
+    color: #999
+}
+
+.datepicker td.active,
+.datepicker td.active:hover {
+    background-color: #006dcc;
+    background-image: -moz-linear-gradient(top, #08c, #04c);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08c), to(#04c));
+    background-image: -webkit-linear-gradient(top, #08c, #04c);
+    background-image: -o-linear-gradient(top, #08c, #04c);
+    background-image: linear-gradient(to bottom, #08c, #04c);
+    background-repeat: repeat-x;
+    border-color: #04c #04c #002a80;
+    border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
+    color: #fff
+}
+
+.datepicker td.active.active,
+.datepicker td.active.disabled,
+.datepicker td.active:active,
+.datepicker td.active:focus,
+.datepicker td.active:hover,
+.datepicker td.active:hover.active,
+.datepicker td.active:hover.disabled,
+.datepicker td.active:hover:active,
+.datepicker td.active:hover:focus,
+.datepicker td.active:hover:hover,
+.datepicker td.active:hover[disabled],
+.datepicker td.active[disabled] {
+    color: #fff;
+    background-color: #04c
+}
+
+.datepicker td span {
+    display: block;
+    width: 47px;
+    height: 54px;
+    line-height: 54px;
+    float: left;
+    margin: 2px;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+.datepicker td span:hover {
+    background: #eee
+}
+
+.datepicker td span.active {
+    background-color: #006dcc;
+    background-image: -moz-linear-gradient(top, #08c, #04c);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08c), to(#04c));
+    background-image: -webkit-linear-gradient(top, #08c, #04c);
+    background-image: -o-linear-gradient(top, #08c, #04c);
+    background-image: linear-gradient(to bottom, #08c, #04c);
+    background-repeat: repeat-x;
+    border-color: #04c #04c #002a80;
+    border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
+    color: #fff
+}
+
+.datepicker td span.active.active,
+.datepicker td span.active.disabled,
+.datepicker td span.active:active,
+.datepicker td span.active:focus,
+.datepicker td span.active:hover,
+.datepicker td span.active[disabled] {
+    color: #fff;
+    background-color: #04c
+}
+
+.datepicker td span.old {
+    color: #999
+}
+
+.datepicker th.switch {
+    width: 145px
+}
+
+.datepicker th.next,
+.datepicker th.prev {
+    font-size: 21px
+}
+
+.datepicker thead tr:first-child th {
+    cursor: pointer
+}
+
+.datepicker thead tr:first-child th:hover {
+    background: #eee
+}
+
+.input-append.date .add-on i,
+.input-prepend.date .add-on i {
+    display: block;
+    cursor: pointer;
+    width: 16px;
+    height: 16px
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Ubuntu Light'), local('Ubuntu-Light'), url(../fonts/X_EdMnknKUltk57alVVbV4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+0460052F, U+20B4, U+2DE0-2DFF, U+A640-A69F
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Ubuntu Light'), local('Ubuntu-Light'), url(../fonts/nBF2d6Y3AbOwfkBM-9HcWIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+0400045F, U+04900491, U+04B004B1, U+2116
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Ubuntu Light'), local('Ubuntu-Light'), url(../fonts/CdlIlwqST01WNAKqZbtZkoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Ubuntu Light'), local('Ubuntu-Light'), url(../fonts/7k0RmqCN8EFxqS6sChuRzYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+037003FF
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Ubuntu Light'), local('Ubuntu-Light'), url(../fonts/WtcvfJHWXKxx4x0kuS1koYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+0100024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Ubuntu Light'), local('Ubuntu-Light'), url(../fonts/_aijTyevf54tkVDLy-dlnJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+    unicode-range: U+000000FF, U+0131, U+01520153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(../fonts/BxfrwvhZBmVnDwajjdTQeH-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+    unicode-range: U+0460052F, U+20B4, U+2DE0-2DFF, U+A640-A69F
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(../fonts/rOHfGaogav5XpJHYhB_YZ3-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+    unicode-range: U+0400045F, U+04900491, U+04B004B1, U+2116
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(../fonts/zwDIfh8KEInP4WYoM7h0b3-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(../fonts/BgwOR-U84B6EluzUITbpkH-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+    unicode-range: U+037003FF
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(../fonts/Zcmru5bcP_p_TwCNg-F3DH-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+    unicode-range: U+0100024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(../fonts/zvCUQcxqeoKhyOlbifSAaevvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+    unicode-range: U+000000FF, U+0131, U+01520153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url(../fonts/MLKvhAbswThSVACnSTWCp4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+0460052F, U+20B4, U+2DE0-2DFF, U+A640-A69F
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url(../fonts/IiMFELcoPB-OzGzq14k4eoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+0400045F, U+04900491, U+04B004B1, U+2116
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url(../fonts/H2j4_4xA-HIuoc_A3BIwVIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    unicode-range: U+037003FF
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url(../fonts/gMhvhm-nVj1086DvGgmzB4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+0100024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url(../fonts/OsJ2DjdpjqFRVUSto6IffJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+    unicode-range: U+000000FF, U+0131, U+01520153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(../fonts/oxrPYIm05JrY_0rFIEQ_oYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+0460052F, U+20B4, U+2DE0-2DFF, U+A640-A69F
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(../fonts/4z2U46_RRLOfkoHsWJG3v4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+0400045F, U+04900491, U+04B004B1, U+2116
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(../fonts/2vaWVxeAxHVkFcnCBCQCyYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(../fonts/M-Ii49WH_TYYnOjQyLgTMIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+037003FF
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(../fonts/nsLtvfQoT-rVwGTHHnkeJoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+0100024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(../fonts/0ihfXUL2emPh0ROJezvraJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+    unicode-range: U+000000FF, U+0131, U+01520153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+.default tbody tr:nth-child(even) {
+    background: #dededf!important
+}
+
+.default thead {
+    color: #FFF;
+    font-family: Ubuntu, sans-serif;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.default tbody tr:nth-child(odd) {
+    background: #ececec
+}
+
+.default tbody tr td {
+    padding: 6px 2px 20px
+}
+
+.default tbody td span {
+    float: right
+}
+
+.default tbody tr td a {
+    color: #565759!important
+}
+
+.default tbody tr td.ganados {
+    color: #65c12f!important
+}
+
+.default tbody tr td.empatados {
+    color: #387db8!important
+}
+
+.default tbody tr td.perdidos {
+    color: #e82823!important
+}
+
+.default tbody tr td.ptosext {
+    color: #008f23!important
+}
+
+.default tbody tr td.tpts {
+    color: #072146!important
+}
+
+.default tbody tr td a.ganados {
+    color: #65c12f!important
+}
+
+.default tbody tr td a.empatados {
+    color: #387db8!important
+}
+
+.default tbody tr td a.perdidos {
+    color: #e82823!important
+}
+
+.default tbody tr td a.ptsex {
+    color: #387db8!important
+}
+
+.default tbody tr td a.tpts {
+    color: #072146!important
+}
+
+.default .local {
+    background: #b1cc12
+}
+
+.default .visit {
+    background: #01325b
+}
+
+.symbology li {
+    color: #fff!important
+}
+
+.description {
+    margin: 24px 0 14px;
+    overflow: hidden
+}
+
+.description dd,
+.description dt {
+    color: #565759;
+    float: left;
+    font-family: Ubuntu, sans-serif;
+    font-size: 11px;
+    overflow: hidden
+}
+
+.description dt {
+    font-weight: 700;
+    margin: 0 6px 0 24px
+}
+
+.description dd {
+    font-weight: 300
+}
+
+.tabla_lmx a {
+    color: #565759!important
+}
+
+.tabla_lmx thead {
+    background: #072146
+}
+
+.tabla_lmx thead td,
+.tabla_lmx thead th {
+    padding: 10px 12px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase!important
+}
+
+.tabla_lmx tbody tr:nth-child(even) {
+    background: #dededf!important
+}
+
+.tabla_lmx thead {
+    color: #FFF;
+    font-family: Ubuntu, sans-serif;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.tabla_lmx tbody tr:nth-child(odd) {
+    background: #ececec
+}
+
+.tabla_lmx tbody td,
+.tabla_lmx tbody th {
+    padding: 9px 12px
+}
+
+.tabla_lmx tbody th {
+    color: #072146
+}
+
+.tabla_lmx tfoot td {
+    padding: 20px 0
+}
+
+.tabla_lmx tfoot .description {
+    margin: 0;
+    padding: 0
+}
+
+.tabla_lmx tfoot .description dd,
+.tabla_lmx tfoot .description dt {
+    display: inline-block;
+    font-size: 12px
+}
+
+.tabla_lmx tfoot .description dd:first-child,
+.tabla_lmx tfoot .description dt:first-child {
+    margin-left: 0
+}
+
+.tabla_lmx tfoot .description dt {
+    margin-left: 16px
+}
+
+.tabla_lmx.center td,
+.tabla_lmx.center th {
+    text-align: center
+}
+
+.tabla_lmx.dark tbody tr:nth-child(even) {
+    background-color: #dededf
+}
+
+.tabla_lmx tr .ganados {
+    color: #65c12f!important
+}
+
+.tabla_lmx tr .empatados {
+    color: #337ab7!important
+}
+
+.tabla_lmx tr .perdidos {
+    color: #e82823!important
+}
+
+.tabla_lmx tr .posicion {
+    color: #072146!important
+}
+
+.tabla_lmx tr .ptsex {
+    color: #387db8!important
+}
+
+.tabla_lmx tr .tpts {
+    color: #072146!important
+}
+
+.tabla_lmx tr .ganados a {
+    color: #65c12f!important
+}
+
+.tabla_lmx tr .empatados a {
+    color: #337ab7!important
+}
+
+.tabla_lmx tr .perdidos a {
+    color: #e82823!important
+}
+
+.tabla_lmx tr .posicion a {
+    color: #072146!important
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .clubtcociente {
+        display: none
+    }
+}
+
+.toast-title {
+    font-weight: 700
+}
+
+.toast-message {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word
+}
+
+.toast-message a,
+.toast-message label {
+    color: #fff
+}
+
+.toast-message a:hover {
+    color: #ccc;
+    text-decoration: none
+}
+
+.toast-close-button {
+    position: relative;
+    right: -.3em;
+    top: -.3em;
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    -webkit-text-shadow: 0 1px 0 #fff;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .9;
+    background: 0;
+    -ms-filter: alpha(opacity=80);
+    filter: alpha(opacity=80);
+    border: none!important
+}
+
+.toast-top-center,
+.toast-top-full-width {
+    top: 0;
+    right: 0;
+    width: 100%
+}
+
+.toast-close-button:focus,
+.toast-close-button:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .4;
+    -ms-filter: alpha(opacity=40);
+    filter: alpha(opacity=40)
+}
+
+.toast-bottom-center {
+    bottom: 0;
+    right: 0;
+    width: 100%
+}
+
+.toast-bottom-full-width {
+    bottom: 0;
+    right: 0;
+    width: 100%
+}
+
+.toast-top-left {
+    top: 12px;
+    left: 12px
+}
+
+.toast-top-right {
+    top: 12px;
+    right: 12px
+}
+
+.toast-bottom-right {
+    right: 12px;
+    bottom: 12px
+}
+
+.toast-bottom-left {
+    bottom: 12px;
+    left: 12px
+}
+
+#toast-container {
+    position: fixed;
+    z-index: 999999
+}
+
+#toast-container * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+#toast-container>div {
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    -moz-box-shadow: 0 0 12px #999;
+    -webkit-box-shadow: 0 0 12px #999;
+    box-shadow: 0 0 12px #999;
+    color: #565759;
+    opacity: .93;
+    border: none!important;
+    -ms-filter: alpha(opacity=80);
+    filter: alpha(opacity=80)
+}
+
+#toast-container>:hover {
+    -moz-box-shadow: 0 0 12px #000;
+    -webkit-box-shadow: 0 0 12px #000;
+    box-shadow: 0 0 12px #000;
+    opacity: 1;
+    -ms-filter: alpha(opacity=100);
+    filter: alpha(opacity=100);
+    cursor: pointer
+}
+
+#toast-container>.toast-error,
+#toast-container>.toast-info {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGwSURBVEhLtZa9SgNBEMc9sUxxRcoUKSzSWIhXpFMhhYWFhaBg4yPYiWCXZxBLERsLRS3EQkEfwCKdjWJAwSKCgoKCcudv4O5YLrt7EzgXhiU3/4+b2ckmwVjJSpKkQ6wAi4gwhT+z3wRBcEz0yjSseUTrcRyfsHsXmD0AmbHOC9Ii8VImnuXBPglHpQ5wwSVM7sNnTG7Za4JwDdCjxyAiH3nyA2mtaTJufiDZ5dCaqlItILh1NHatfN5skvjx9Z38m69CgzuXmZgVrPIGE763Jx9qKsRozWYw6xOHdER+nn2KkO+Bb+UV5CBN6WC6QtBgbRVozrahAbmm6HtUsgtPC19tFdxXZYBOfkbmFJ1VaHA1VAHjd0pp70oTZzvR+EVrx2Ygfdsq6eu55BHYR8hlcki+n+kERUFG8BrA0BwjeAv2M8WLQBtcy+SD6fNsmnB3AlBLrgTtVW1c2QN4bVWLATaIS60J2Du5y1TiJgjSBvFVZgTmwCU+dAZFoPxGEEs8nyHC9Bwe2GvEJv2WXZb0vjdyFT4Cxk3e/kIqlOGoVLwwPevpYHT+00T+hWwXDf4AJAOUqWcDhbwAAAAASUVORK5CYII=)!important
+}
+
+#toast-container>.toast-warning {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVEhL5ZSvTsNQFMbXZGICMYGYmJhAQIJAICYQPAACiSDB8AiICQQJT4CqQEwgJvYASAQCiZiYmJhAIBATCARJy+9rTsldd8sKu1M0+dLb057v6/lbq/2rK0mS/TRNj9cWNAKPYIJII7gIxCcQ51cvqID+GIEX8ASG4B1bK5gIZFeQfoJdEXOfgX4QAQg7kH2A65yQ87lyxb27sggkAzAuFhbbg1K2kgCkB1bVwyIR9m2L7PRPIhDUIXgGtyKw575yz3lTNs6X4JXnjV+LKM/m3MydnTbtOKIjtz6VhCBq4vSm3ncdrD2lk0VgUXSVKjVDJXJzijW1RQdsU7F77He8u68koNZTz8Oz5yGa6J3H3lZ0xYgXBK2QymlWWA+RWnYhskLBv2vmE+hBMCtbA7KX5drWyRT/2JsqZ2IvfB9Y4bWDNMFbJRFmC9E74SoS0CqulwjkC0+5bpcV1CZ8NMej4pjy0U+doDQsGyo1hzVJttIjhQ7GnBtRFN1UarUlH8F3xict+HY07rEzoUGPlWcjRFRr4/gChZgc3ZL2d8oAAAAASUVORK5CYII=)!important
+}
+
+#toast-container.toast-bottom-center>div,
+#toast-container.toast-top-center>div {
+    width: 300px;
+    margin: auto
+}
+
+#toast-container.toast-bottom-full-width>div,
+#toast-container.toast-top-full-width>div {
+    width: 96%;
+    margin: auto
+}
+
+.loader,
+.loader .loader-load {
+    margin: -20px 0 0 -20px;
+    overflow: hidden
+}
+
+.toast {
+    background-color: #030303
+}
+
+.toast-error {
+    background-color: #bd362f
+}
+
+.toast-info {
+    background-color: #2f96b4
+}
+
+.toast-warning {
+    background-color: #f89406
+}
+
+.toast-progress {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    background-color: #000;
+    opacity: .4;
+    -ms-filter: alpha(opacity=40);
+    filter: alpha(opacity=40)
+}
+
+@media all and (max-width:240px) {
+    #toast-container>div {
+        padding: 8px;
+        width: 11em
+    }
+    #toast-container .toast-close-button {
+        right: -.2em;
+        top: -.2em;
+        border: none!important
+    }
+}
+
+@media all and (min-width:241px) and (max-width:480px) {
+    #toast-container>div {
+        padding: 8px;
+        width: 18em
+    }
+    #toast-container .toast-close-button {
+        right: -.2em;
+        top: -.2em
+    }
+}
+
+@media all and (min-width:481px) and (max-width:768px) {
+    #toast-container>div {
+        padding: 15px 15px 15px 8px;
+        width: 25em
+    }
+}
+
+.ascenso {
+    background: #009ee5
+}
+
+.ascenso .ico {
+    background: url(images/icons.png) -28px -33px no-repeat #006ec1
+}
+
+.ascenso .btn-close {
+    background: url(assets/bg/cerrar-ico.png) center center no-repeat #006ec1
+}
+
+.copa {
+    background: #56b954
+}
+
+.copa .ico {
+    background: url(images/icons.png) -28px -33px no-repeat #235321
+}
+
+.copa .btn-close {
+    background: url(assets/bg/cerrar-ico.png) center center no-repeat #235321
+}
+
+.inline {
+    display: inline!important
+}
+
+.prtdoNJugeo {
+    -moz-animation: pulse 2s infinite;
+    -webkit-animation: pulse 2s infinite
+}
+
+@-moz-keyframes pulse {
+    0%,
+    100% {
+        box-shadow: 0 0 1px red
+    }
+    50% {
+        box-shadow: 0 0 8px red
+    }
+}
+
+@-webkit-keyframes pulse {
+    0%,
+    100% {
+        box-shadow: 0 0 1px red
+    }
+    50% {
+        box-shadow: 0 0 10px red
+    }
+}
+
+.loader {
+    height: 40px;
+    left: 50%;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 40px;
+    z-index: 1999
+}
+
+.loader .loader-load {
+    
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 370px;
+    left: 45%;
+    -webkit-opacity: 1;
+    -khtml-opacity: 1;
+    -moz-opacity: 1;
+    -ms-opacity: 1;
+    -o-opacity: 1;
+    -ms-filter: alpha(opacity=69);
+    filter: alpha(opacity=69);
+    opacity: 1;
+    position: absolute;
+    top: 29%;
+    width: 155px;
+    z-index: 1000
+}
+
+.loader .loader-overlay,
+.loader.overlay {
+    height: 100%;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0
+}
+
+.loader .loader-overlay {
+    background: #000;
+    display: none;
+    -webkit-opacity: .89;
+    -khtml-opacity: .89;
+    -moz-opacity: .89;
+    -ms-opacity: .89;
+    -o-opacity: .89;
+    -ms-filter: alpha(opacity=60);
+    filter: alpha(opacity=60);
+    opacity: .89;
+    position: absolute;
+    width: 100%
+}
+
+.loader.hide {
+    display: none!important
+}
+
+.loader.overlay {
+    width: 100%;
+    margin: 0
+}
+
+.loader.overlay .loader-overlay {
+    display: block
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex {
+    text-align: center;
+    width: 100%
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li {
+    display: inline-block;
+    height: 186px;
+    margin: 0 3px;
+    position: relative;
+    width: 117px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li h4 {
+    color: #072146;
+    font-family: Ubuntu, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div {
+    background: #fff;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
+    height: 180px;
+    padding: 5px 0;
+    width: 117px;
+    -moz-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1)
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div h5 {
+    color: #565759;
+    font-family: Ubuntu, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .schedule {
+    color: #a6a6a6;
+    font-family: Ubuntu, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    margin: 0 5px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .schedule .date {
+    display: block;
+    float: left
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .schedule .hour {
+    display: block;
+    float: right
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .schedule .hour span {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) -137px -50px no-repeat;
+    display: block;
+    float: left;
+    height: 14px;
+    margin: -1px 2px 0 0;
+    width: 14px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .teams {
+    clear: both;
+    margin: 0 5px;
+    overflow: hidden;
+    padding-top: 6px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .teams img {
+    height: 40px;
+    width: 40px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .teams .local {
+    float: left
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .teams .visit {
+    float: right
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .score {
+    color: #a6a6a6;
+    font-family: Ubuntu, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .score span {
+    color: #565759;
+    display: block;
+    height: 40px;
+    width: 40px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .score .local {
+    float: left;
+    text-align: right
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .score .visit {
+    float: right;
+    text-align: left
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .broadcasting {
+    border-top: 1px solid #ededed
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li>div .broadcasting span {
+    color: #a6a6a6;
+    display: block;
+    font-family: Ubuntu, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li.vivo>div .schedule .hour,
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li.vivo>h4 {
+    color: #b1cc12
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li.vivo>div {
+    outline: #b1cc12 solid 2px;
+    box-shadow: none
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li.vivo>div .schedule .hour span {
+    background-position: -214px -391px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li .sub-menu {
+    display: none;
+    height: 152px;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 26px;
+    width: 196px;
+    z-index: 1
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li .sub-menu ul li {
+    display: block
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li .sub-menu ul li a {
+    color: #565759;
+    display: block;
+    font-family: Ubuntu, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 36px;
+    padding: 18px 0;
+    text-align: left
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li .sub-menu ul li a span {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/sprite.png) no-repeat;
+    display: block;
+    float: left;
+    height: 28px;
+    margin: -10px 10px 0;
+    width: 28px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li .sub-menu ul li a .the-minute {
+    background-position: -44px 0
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li .sub-menu ul li a .arbitration-report {
+    background-position: -88px 0
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li .sub-menu ul li a:hover {
+    background: #072146;
+    color: #fff;
+    text-decoration: none
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li .sub-menu ul li a:hover .stadium {
+    background-position: 0 -42px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li .sub-menu ul li a:hover .the-minute {
+    background-position: -44px -42px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li .sub-menu ul li a:hover .arbitration-report {
+    background-position: -88px -42px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li:hover .sub-menu {
+    display: block
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex li:nth-child(9),
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li:last-child {
+    width: 117px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex li:nth-child(9) .sub-menu,
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex>li:last-child .sub-menu {
+    left: -78px;
+    margin-left: 0
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal {
+    text-align: left
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li {
+    width: 1115px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div {
+    background: url(assets/bg/estadio.jpg) center center no-repeat;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    width: 100%
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div h5 {
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .7);
+    text-transform: inherit
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div h5 span {
+    font-weight: 400;
+    margin-left: 30px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .marcador {
+    margin-top: -8px;
+    min-height: 100px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .marcador>div {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 26%
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .marcador>div img.escudos {
+    float: none;
+    width: 85px;
+    height: 84px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .marcador>div img.uniformes {
+    width: 60px;
+    height: auto;
+    margin: 10px 30px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .marcador>div.score {
+    color: #fff;
+    width: 44%
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .marcador>div.score span {
+    color: #fff;
+    display: inline-block;
+    height: auto;
+    float: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .7);
+    width: auto
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .marcador>div.score span.club {
+    font-size: 24px;
+    width: 39%
+}
+.clubSC{
+    color: #fff !important;font-size:24px;width:29% !important;
+}
+.golSC{
+    color: #fff !important;
+    margin:0 15px;
+}
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .marcador>div.score span.gol {
+    margin: 0 15px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting {
+    background: #072146;
+    border: 0;
+    min-height: 35px;
+    max-height: 45px;
+    overflow: hidden
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div {
+    display: inline-block;
+    height: 45px;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+    width: 26%
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu {
+    background: #072146;
+    min-height: 35px;
+    padding: 0;
+    position: static;
+    width: 47%
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul {
+    padding: 0;
+    background: #072146;
+    width: 99%
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li {
+    display: inline-block;
+    height: 45px;
+    margin: 0 0 0 -4px;
+    padding: 0;
+    width: 169px;
+    vertical-align: top
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li:nth-child(2) {
+    border: 1px solid #ececec;
+    border-top: 0;
+    border-bottom: 0
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li:last-child {
+    margin-left: -3px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li a {
+    background: #fff;
+    height: 45px!important;
+    padding: 0!important;
+    text-align: left;
+    width: 100%
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li a:hover {
+    background: #072146
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li a.estadio {
+    position: relative
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li a .nombreS,
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li a .stadium {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li a .stadium {
+    background-position: 0 -9px;
+    width: 27px;
+    height: 16px;
+    margin-top: 0
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li a .the-minute {
+    background-position: -46px -5px;
+    width: 24px;
+    height: 21px;
+    margin-top: 0
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li a .arbitration-report {
+    background-position: -91px -6px;
+    width: 23px;
+    height: 22px;
+    margin-top: 0
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li a .nombreS {
+    margin: 0;
+    position: relative;
+    padding-left: 42px;
+    width: 95%
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li a .nombreS span {
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    left: 0
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li a:hover .stadium {
+    background-position: 0 -51px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li a:hover .the-minute {
+    background-position: -46px -46px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div.sub-menu ul li a:hover .arbitration-report {
+    background-position: -91px -46px
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div label {
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div .schedule {
+    display: inline-block
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div .schedule span {
+    color: #b1cc12;
+    display: inline-block;
+    font-size: 11px;
+    float: none;
+    width: auto
+}
+
+.box-matches .viewport-matches .matches>li ul.scoreboard_ex.granFinal>li>div .broadcasting>div .schedule .hour span {
+    background-position: -214px -391px;
+    width: 14px;
+    height: 14px;
+    margin: 0 0 -2px 8px
+}
+
+.smartbanner-show {
+    margin-top: 80px
+}
+
+.smartbanner-show .smartbanner {
+    display: block
+}
+
+.smartbanner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 280px;
+    line-height: 80px;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #f4f4f4;
+    z-index: 9998;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    -webkit-text-size-adjust: none
+}
+
+.smartbanner-close,
+.smartbanner-icon,
+.smartbanner-info {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.smartbanner-container {
+    margin: 60px auto;
+    white-space: nowrap
+}
+
+.smartbanner-close {
+    margin: 0 5px;
+    font-family: ArialRoundedMTBold, Arial;
+    font-size: 20px;
+    text-align: center;
+    color: #888;
+    text-decoration: none;
+    border: 0;
+    border-radius: 14px;
+    -webkit-font-smoothing: subpixel-antialiased
+}
+
+.smartbanner-close:active,
+.smartbanner-close:hover {
+    color: #aaa
+}
+
+.smartbanner-icon {
+    width: 125px;
+    height: 125px;
+    margin-right: 12px;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(/images/favicons_liga/apple-touch-icon-57x57.png)!important
+}
+
+.smartbanner-info {
+    width: 44%;
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight: 700
+}
+
+.smartbanner-title {
+    font-size: 50px;
+    line-height: 18px;
+    margin: 25px 0
+}
+
+.smartbanner-button {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    height: 45px;
+    font-size: 40px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: #6a6a6a;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .8)
+}
+
+.smartbanner-button:active,
+.smartbanner-button:hover {
+    color: #aaa
+}
+
+.smartbanner-ios {
+    background: #f4f4f4;
+    background: linear-gradient(to bottom, #f4f4f4, #cdcdcd);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    line-height: 80px
+}
+
+.smartbanner-ios .smartbanner-close {
+    border: 0;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    color: #888;
+    text-shadow: 0 1px 0 #fff
+}
+
+.smartbanner-ios .smartbanner-close:active,
+.smartbanner-ios .smartbanner-close:hover {
+    color: #aaa
+}
+
+.smartbanner-ios .smartbanner-icon {
+    background: rgba(0, 0, 0, .6);
+    background-size: cover;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3)
+}
+
+.smartbanner-ios .smartbanner-info {
+    color: #6a6a6a;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .8)
+}
+
+.smartbanner-ios .smartbanner-title {
+    color: #4d4d4d;
+    font-weight: 700
+}
+
+.smartbanner-ios .smartbanner-button {
+    padding: 0 10px;
+    min-width: 10%;
+    color: #6a6a6a;
+    background: #efefef;
+    background: linear-gradient(to bottom, #efefef, #dcdcdc);
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px #bfbfbf, 0 1px 0 rgba(255, 255, 255, .6), 0 2px 0 rgba(255, 255, 255, .7) inset
+}
+
+.smartbanner-ios .smartbanner-button:active,
+.smartbanner-ios .smartbanner-button:hover {
+    background: #dcdcdc;
+    background: linear-gradient(to bottom, #dcdcdc, #efefef)
+}
+
+.smartbanner-android {
+    background: url(dark_background_stripes.gif) #3d3d3d;
+    box-shadow: inset 0 4px 0 #88b131;
+    line-height: 82px
+}
+
+.smartbanner-android .smartbanner-close {
+    border: 0;
+    width: 57px;
+    height: 57px;
+    line-height: 17px;
+    margin-right: 7px;
+    color: #fff;
+    text-shadow: 0 1px 1px #000;
+    font-size: 80px;
+    padding-top: 22px
+}
+
+.smartbanner-android .smartbanner-close:active,
+.smartbanner-android .smartbanner-close:hover {
+    color: #eee
+}
+
+.smartbanner-android .smartbanner-icon {
+    background-color: transparent;
+    box-shadow: none;
+    background-image: url(/images/favicons_liga/apple-touch-icon-57x57.png)!important
+}
+
+.smartbanner-android .smartbanner-info {
+    color: #ccc;
+    text-shadow: 0 1px 2px #000
+}
+
+.smartbanner-android .smartbanner-title {
+    color: #fff;
+    font-weight: 700
+}
+
+.smartbanner-android .smartbanner-button {
+    min-width: 20%;
+    color: #fff;
+    padding: 0;
+    background: 0;
+    border-radius: 0
+}
+
+.smartbanner-android .smartbanner-button:active,
+.smartbanner-android .smartbanner-button:hover {
+    background: 0
+}
+
+.smartbanner-android .smartbanner-button-text {
+    text-align: center;
+    display: block;
+    padding: 22px 10px;
+    background: #8bc34a;
+    background: linear-gradient(to bottom, #8bc34a, #8bc34a);
+    text-transform: none;
+    text-shadow: none;
+    box-shadow: none;
+    height: 70px
+}
+
+.smartbanner-android .smartbanner-button-text:active,
+.smartbanner-android .smartbanner-button-text:hover {
+    background: #8bc34a
+}
+
+.smartbanner-windows {
+    background: #f4f4f4;
+    background: linear-gradient(to bottom, #f4f4f4, #cdcdcd);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    line-height: 80px
+}
+
+.smartbanner-windows .smartbanner-close {
+    border: 0;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    color: #888;
+    text-shadow: 0 1px 0 #fff
+}
+
+.smartbanner-windows .smartbanner-close:active,
+.smartbanner-windows .smartbanner-close:hover {
+    color: #aaa
+}
+
+.smartbanner-windows .smartbanner-icon {
+    background: rgba(0, 0, 0, .6);
+    background-size: cover;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    background-image: url(/images/favicons_liga/apple-touch-icon-57x57.png)!important
+}
+
+.smartbanner-windows .smartbanner-info {
+    color: #6a6a6a;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .8)
+}
+
+.smartbanner-windows .smartbanner-title {
+    color: #4d4d4d;
+    font-weight: 700
+}
+
+.smartbanner-windows .smartbanner-button {
+    padding: 0 10px;
+    min-width: 10%;
+    color: #6a6a6a;
+    background: #efefef;
+    background: linear-gradient(to bottom, #efefef, #dcdcdc);
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px #bfbfbf, 0 1px 0 rgba(255, 255, 255, .6), 0 2px 0 rgba(255, 255, 255, .7) inset
+}
+
+.smartbanner-windows .smartbanner-button:active,
+.smartbanner-windows .smartbanner-button:hover {
+    background: #dcdcdc;
+    background: linear-gradient(to bottom, #dcdcdc, #efefef)
+}
+
+#CloseVdoLive {
+    right: 575px;
+    position: absolute;
+    top: 70px
+}
+
+#tool_config_box {
+    position: fixed;
+    z-index: 9999;
+    top: 40%;
+    right: 40px
+}
+
+.tool_config_box_hide {
+    display: none
+}
+
+.tab-goldenball{    background: white;
+    margin-top: 15px;
+    height: 30px;
+    padding: 6px;
+    margin-left: 5px;
+}
+.set-goldenball{margin-top: 5px}
+.slctblnoro{color: #072146;font-size: 12px;font-weight: 700;text-transform: uppercase;}
+.tab-goldenball:hover .slctblnoro{color: #fff;}
+.tab-goldenball:hover { background: #072146}
+.activeblnoro a, .activeblnoro {color: #fff;background: #072146}
+.title_blnoro{text-align: center; margin:10px 0 0 6px !important;}
+video{
+  background-size: 100% 100%;
+  background-position: 50% 25% !important;
+}
+.f_Semi,
+.trans_semi,
+.hora_semi {
+  background: #565859 !important;
+  color: white !important;
+}
+.gol {
+     color: #565759 !important;
+}
+
+.jornada_sim {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: lightgrey;
+    margin: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 4px solid #0F4589;
+}
+.caras .cara-cara {
+    background: url(https://s3.amazonaws.com/lmxwebsite/css/assets/bg/cara-a-cara.jpg) center center no-repeat !important;
+}
+
+.bulletsBanner{
+	text-align: center;
+	>li{
+		background: #000000;
+		border-radius: 50%;
+		cursor: pointer;
+		display: inline-block;
+		height: 10px;
+		margin: 0 5px;
+		width: 10px;
+	}
+	>li:hover,
+	>li.active{
+		background: yellow;
+	}
+}
+/*footer .footer-logos ul li.col-xs-2{width: 16.66666667% !important;} */
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+	height: 0;
+	width: 0;
+}
+.slider-wrapper {
+	z-index: 500;
+	position: relative;
+	width: 970;
+	height: 110px;
+	overflow: hidden;
+}
+
+.slider-wrapper li {
+	display: none;
+}
+
+.slider-wrapper .current-slide {
+	display: none;
+}
+.slider-wrapper .current-slide:first-child {
+	display: block;
+}
+
+.slider-shadow:after, .slider-shadow:before {
+	content: '';
+	position: absolute;
+	background: #171c24;
+	height: 100%;
+	width: 50%;
+	left: 10px;
+	top: -20px;
+	-webkit-transform: rotate(-4deg);
+	-ms-transform: rotate(-4deg);
+	-o-transform: rotate(-4deg);
+	transform: rotate(-4deg);
+	-webkit-box-shadow: 0 0 15px 8px #171c24;
+	box-shadow: 0 0 15px 8px #171c24;
+}
+
+.slider-shadow:before {
+	right: 10px;
+	left: auto;
+	-webkit-transform: rotate(4deg);
+	-ms-transform: rotate(4deg);
+	-o-transform: rotate(4deg);
+	transform: rotate(4deg);
+}
+
+.slider-wrapper img {
+	position: absolute;
+	max-width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+}
+
+/**
+ * ---[Caption] ---------------------- 
+ **/
+.slider-wrapper .caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.65);
+	width: 100%;
+	padding: 10px;
+	color: #FFF;
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	-o-transform: translateY(100%);
+	transform: translateY(100%);
+	opacity: 0;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.slider-wrapper li:hover .caption {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+	opacity: 1;
+}
+
+
+.slider-wrapper h2 {
+	color: #00c5b9;
+	font-size: 2em;
+	font-weight: 400;
+	margin-bottom: 6px;
+}
+
+.slider-wrapper p {
+	font-size: 1.6em;
+	font-weight: 300;
+	line-height: 1.4em;
+}
+
+/**
+ * ---[Botones-Control] ---------------------- 
+ **/
+.control-buttons {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.control-buttons li {
+	cursor: pointer;
+	display: inline-block;
+	background: #424f66;
+	text-indent: -99999px;
+	height: 12px;
+	width: 12px;
+	margin: 0 6px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.control-buttons li.active {
+	background: #00c5b9;
+}
+
+
+
+/** ---------------------------------------
+ * Responsive 
+ ----------------------------------------*/
+ /* @media only screen and (max-width: 825px) {
+ 	.container {
+ 		width: 500px;
+ 	}
+
+ 	.slider-wrapper {
+ 		height: 260px;
+ 	}
+ }
+
+ @media only screen and (max-width: 535px) {
+ 	.container {
+ 		padding: 5px;
+ 		width: 100%;
+ 		margin: 40px 0 0 0;
+ 	}
+
+ 	.slider-wrapper {
+ 		height: 200px;
+ 	}
+	
+ 	.slider-wrapper .caption {
+ 		display: none;
+ 	}
+
+ }
+
+ @media only screen and (max-width: 410px) {
+ 	.slider-wrapper {
+ 		height: 160px;
+ 	}
+ } */
