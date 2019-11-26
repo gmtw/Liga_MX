@@ -1,3 +1,6 @@
 # Liga_MX
-Web scrapping y analisis de la liga mx
-La liga mx es una liga de primera división del futbol mexicano, en este repositorio se busca obtener las estadisticas de dicha liga para poder hacer analisis predictivo de los encuentros de futbol
+El repositorio contiene un web Scraping de la **Liga_MX** escrito en lenguaje *Python* usando las librerías
+1. Beautiful Soup
+2. Numpy
+3. Pandas
+ ![Liga_MX]{https://upload.wikimedia.org/wikipedia/commons/f/f8/MX_logo.png}
