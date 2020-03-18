@@ -3,4 +3,6 @@ El repositorio contiene un web Scraping de la **Liga_MX** escrito en lenguaje *P
 1. Beautiful Soup
 2. Numpy
 3. Pandas
- ![Liga_MX]{https://upload.wikimedia.org/wikipedia/commons/f/f8/MX_logo.png}
+4. Scrapy
+
+
