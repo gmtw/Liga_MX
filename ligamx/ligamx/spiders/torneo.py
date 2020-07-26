@@ -58,35 +58,102 @@ class TorneoSpider(scrapy.Spider):
             loader.add_xpath('posicion', 'normalize-space(.//td[1]/text())')
             loader.add_xpath(
                 'club', 'normalize-space(.//td[2]/a[@class = "tpts loadershow"]/text())')
-            
-            loader.add_xpath('jj', './/td[3]/text()')
-            loader.add_xpath('jg', './/td[4]/text()')
-            loader.add_xpath('je', './/td[5]/text()')
-            loader.add_xpath('jp', './/td[6]/text()')
-            loader.add_xpath('gf', './/td[7]/text()')
-            loader.add_xpath('gc', './/td[8]/text()')
+                
+            if len(equipo.xpath('.//td[4]').get()) > 10 :
+                loader.add_xpath('jg', './/td[4]/a/text()')
+            else:
+                loader.add_xpath('jg', './/td[4]/text()')
+
+            if len(equipo.xpath('.//td[5]').get()) > 10:
+                loader.add_xpath('je', './/td[5]/a/text()')
+            else:
+                loader.add_xpath('je', './/td[5]/text()')
+
+            if len(equipo.xpath('.//td[6]').get()) > 10:
+                loader.add_xpath('jp', './/td[6]/a/text()')
+            else:
+                loader.add_xpath('jp', './/td[6]/text()')
+
+            if len(equipo.xpath('.//td[7]').get()) > 10:
+                loader.add_xpath('gf', './/td[7]/a/text()')
+            else:
+                loader.add_xpath('gf', './/td[7]/text()')
+
+            if len(equipo.xpath('.//td[8]').get()) > 10:
+                loader.add_xpath('gc', './/td[8]/a/text()')
+            else:
+                loader.add_xpath('gc', './/td[8]/text()')
+
             loader.add_xpath('dif', './/td[9]/text()')
             loader.add_xpath('pts', './/td[10]/text()')
 
-            loader.add_xpath('jjl', './/td[11]/text()')
-            loader.add_xpath('jgl', './/td[12]/text()')
-            loader.add_xpath('jel', './/td[13]/text()')
-            loader.add_xpath('jpl', './/td[14]/text()')
-            loader.add_xpath('gfl', './/td[15]/text()')
-            loader.add_xpath('gcl', './/td[16]/text()')
+            if len(equipo.xpath('.//td[11]').get()) > 10:
+                loader.add_xpath('jjl', './/td[11]/a/text()')
+            else:
+                loader.add_xpath('jjl', './/td[11]/text()')
+
+            if len(equipo.xpath('.//td[12]').get()) > 10:
+                loader.add_xpath('jgl', './/td[12]/a/text()')
+            else:
+                loader.add_xpath('jgl', './/td[12]/text()')
+
+            if len(equipo.xpath('.//td[13]').get()) > 10:
+                loader.add_xpath('jel', './/td[13]/a/text()')
+            else:
+                loader.add_xpath('jel', './/td[13]/text()')
+
+            if len(equipo.xpath('.//td[14]').get()) > 10:
+                loader.add_xpath('jpl', './/td[14]/a/text()')
+            else:
+                loader.add_xpath('jpl', './/td[14]/text()')
+
+            if len(equipo.xpath('.//td[15]').get()) > 10:
+                loader.add_xpath('gfl', './/td[15]/a/text()')
+            else:
+                loader.add_xpath('gfl', './/td[15]/text()')
+
+            if len(equipo.xpath('.//td[16]').get()) > 10:
+                loader.add_xpath('gcl', './/td[16]/a/text()')
+            else:
+                loader.add_xpath('gcl', './/td[16]/text()')
+
             loader.add_xpath('difl', './/td[17]/text()')
             loader.add_xpath('ptsl', './/td[18]/text()')
 
-            loader.add_xpath('jjv', './/td[19]/text()')
-            loader.add_xpath('jgv', './/td[20]/text()')
-            loader.add_xpath('jev', './/td[21]/text()')
-            loader.add_xpath('jpv', './/td[22]/text()')
-            loader.add_xpath('gfv', './/td[23]/text()')
-            loader.add_xpath('gcv', './/td[24]/text()')
+            if len(equipo.xpath('.//td[19]').get()) > 10:
+                loader.add_xpath('jjv', './/td[19]/a/text()')
+            else:
+                loader.add_xpath('jjv', './/td[19]/text()')
+
+            if len(equipo.xpath('.//td[20]').get()) > 10:
+                loader.add_xpath('jgv', './/td[20]/a/text()')
+            else:
+                loader.add_xpath('jgv', './/td[20]/text()')
+
+            if len(equipo.xpath('.//td[21]').get()) > 10:
+                loader.add_xpath('jev', './/td[21]/a/text()')
+            else:
+                loader.add_xpath('jev', './/td[21]/text()')
+
+            if len(equipo.xpath('.//td[22]').get()) > 10:
+                loader.add_xpath('jpv', './/td[22]/a/text()')
+            else:
+                loader.add_xpath('jpv', './/td[22]/text()')
+
+            if len(equipo.xpath('.//td[23]').get()) > 10:
+                loader.add_xpath('gfv', './/td[23]/a/text()')
+            else:
+                loader.add_xpath('gfv', './/td[23]/text()')
+
+            if len(equipo.xpath('.//td[24]').get()) > 10:
+                loader.add_xpath('gcv', './/td[24]/a/text()')
+            else:
+                loader.add_xpath('gcv', './/td[24]/text()')
+
             loader.add_xpath('difv', './/td[25]/text()')
             loader.add_xpath('ptsv', './/td[26]/text()')
 
-
+            
             yield loader.load_item()
             
 
