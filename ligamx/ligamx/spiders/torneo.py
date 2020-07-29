@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
+from scrapy_selenium import SeleniumRequest
 from scrapy.selector import Selector
 from scrapy.loader import ItemLoader
 from ..items import LigamxItem
@@ -11,45 +12,57 @@ from shutil import which
 
 class TorneoSpider(scrapy.Spider):
     name = 'torneo'
-    allowed_domains = ['ligamx.net/']
-    start_urls = ['http://ligamx.net/cancha/estadisticahistorica']
+    allowed_domains = "ligamx.net"
+    start_urls = ['https://ligamx.net/cancha/estadisticahistorica']
+    
+    # def start_requests(self):
+    #     yield SeleniumRequest(
+    #         url = 'https://ligamx.net/cancha/estadisticahistorica',
+    #         callback= self.parse
+
+    #     )
 
     def __init__(self):
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        #chrome_path = which("chromedriver")
-        chrome_path = "/home/julio/Programas/Python/Proyectos/Liga_MX/ligamx/chromedriver"
+    #     chrome_options = Options()
+        self.continuar = True
 
-        driver = webdriver.Chrome(executable_path = chrome_path, chrome_options = chrome_options)
+    #     chrome_options.add_argument("--headless")
+    #     # chrome_path = which("chromedriver")
+    #     chrome_path = "/home/julio/Programas/Python/Proyectos/Liga_MX/ligamx/chromedriver"
 
-        driver.get("http://ligamx.net/cancha/estadisticahistorica")
+    #     driver = webdriver.Chrome(executable_path = chrome_path, chrome_options = chrome_options)
 
-        temporada = driver.find_element_by_xpath(
-            '//select[@id = "temporadasSelect"]')
+    #     driver.get("http://ligamx.net/cancha/estadisticahistorica")
+    #     # driver = response.meta['chromedriver']
+
+    #     temporada = driver.find_element_by_xpath(
+    #         '//select[@id = "temporadasSelect"]')
 
 
-        temporada.click()
+    #     temporada.click()
 
-        temporada_select = driver.find_element_by_xpath('//option[@value = "65"]')
-        temporada_select.click()
+    #     temporada_select = driver.find_element_by_xpath('//option[@value = "65"]')
+    #     temporada_select.click()
 
-        torneo = driver.find_element_by_xpath('//select[@id = "torneosSelect"]')
-        torneo.click()
+    #     torneo = driver.find_element_by_xpath('//select[@id = "torneosSelect"]')
+    #     torneo.click()
 
-        torneo_select = driver.find_element_by_xpath('(//option[@value = "2"])[4]')
-        torneo_select.click()
+    #     torneo_select = driver.find_element_by_xpath('(//option[@value = "2"])[4]')
+    #     torneo_select.click()
 
-        btn_buscar = driver.find_element_by_xpath('//button[@id = "btnBuscar"]')
-        btn_buscar.click()
+    #     btn_buscar = driver.find_element_by_xpath('//button[@id = "btnBuscar"]')
+    #     btn_buscar.click()
+    #     # driver.close()
 
-        self.html = driver.page_source
-        driver.close()
-
+    #     self.html = driver.page_source
 
 
     def parse(self, response):
-        resp = Selector(text = self.html)
-        equipos = resp.xpath('//table[@class = "default tbl_grals"]/tbody/tr')
+        # url = driver.current_url
+        # driver.close()
+        # response = Selector(text = self.html)
+
+        equipos = response.xpath('//table[@class = "default tbl_grals"]/tbody/tr')
 
         for equipo in equipos:
 
@@ -155,5 +168,51 @@ class TorneoSpider(scrapy.Spider):
 
             
             yield loader.load_item()
-            
+        
+        if self.continuar:
+            self.continuar = False
+            yield scrapy.Request(url= self.page(),
+            callback=self.parse, dont_filter=True)
 
+
+
+
+    def page(self):
+        chrome_options = Options()
+
+        chrome_options.add_argument("--headless")
+        # chrome_path = which("chromedriver")
+        chrome_path = "/home/julio/Programas/Python/Proyectos/Liga_MX/ligamx/chromedriver"
+
+        driver = webdriver.Chrome(
+            executable_path=chrome_path, chrome_options=chrome_options)
+
+        driver.get("http://ligamx.net/cancha/estadisticahistorica")
+        # driver = response.meta['chromedriver']
+
+        temporada = driver.find_element_by_xpath(
+            '//select[@id = "temporadasSelect"]')
+
+        temporada.click()
+
+        temporada_select = driver.find_element_by_xpath(
+            '//option[@value = "64"]')
+        temporada_select.click()
+
+        torneo = driver.find_element_by_xpath(
+            '//select[@id = "torneosSelect"]')
+        torneo.click()
+
+        torneo_select = driver.find_element_by_xpath(
+            '(//option[@value = "2"])[4]')
+        torneo_select.click()
+
+        btn_buscar = driver.find_element_by_xpath(
+            '//button[@id = "btnBuscar"]')
+        btn_buscar.click()
+        # driver.close()
+        url = driver.current_url
+
+        #html = Selector(text = driver.page_source)
+
+        return url
