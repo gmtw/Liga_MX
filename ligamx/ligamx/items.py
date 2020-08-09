@@ -46,3 +46,11 @@ class LigamxItem(scrapy.Item):
     gcv = scrapy.Field(output_processor=TakeFirst())
     difv = scrapy.Field(output_processor=TakeFirst())
     ptsv = scrapy.Field(output_processor=TakeFirst())
+
+class PartidosLigaMx(scrapy.Item):
+    torneo = scrapy.Field(output_processor=TakeFirst())
+    jornada = scrapy.Field(output_processor=TakeFirst())
+    fecha = scrapy.Field(output_processor=TakeFirst())
+    local = scrapy.Field(output_processor=TakeFirst())
+    visitante = scrapy.Field(output_processor=TakeFirst())
+    resultado = scrapy.Field(output_processor=TakeFirst())
